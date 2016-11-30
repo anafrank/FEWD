@@ -1,0 +1,21 @@
+h1{  	
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	font-family: "Times"
+	}
+h2{
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+}
+h3{
+	
+}
+body{
+	background-color: #444444;
+	color: #FFFFFF;
+	font-family: "Helvetica"}
+p{
+	text-align: left;
+}

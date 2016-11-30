@@ -1,0 +1,55 @@
+body {
+	font-family: Lato; sans serif;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #f4b342;
+}
+
+nav>a {
+	color: #ccc9c5;
+	font-size: 24px;
+	padding: 10px;
+}
+
+article>h3 {
+	font-size: 24px;
+	color: #ccc9c5;
+}
+
+h2 a {
+	text-decoration: none;
+	font-size: 27px;
+	color: black;
+}
+
+article+div {
+	font-size: 30px;
+	color: #ccc9c5;
+}
+
+h4 a {
+	text-decoration: none;
+	float: right;
+	color: #f4b342;
+}
+
+hr {
+	clear: both;
+}
+
+footer {
+	clear: both;
+}
+
+.bottom a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #f4b342;
+}
+
+footer>p {
+	color: #ccc9c5;
+	font-size: 17px;
+}

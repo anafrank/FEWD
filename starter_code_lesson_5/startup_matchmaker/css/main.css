@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+/*   border: 1px solid red; */
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS for your reference:
+    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
+
+    White - #ffffff;
+    Light Grey - #d4e1bd
+    Dark Grey - #3c3a3a
+    Grey/Black(text color) - #080808
+    Yellow - #fedb0d
+    Red - #ff0121
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+    font-family: sans-serif;
+    background-color: #d4e1db;
+  /* Set some defaults! font-family, font-size, color, etc. */
+}
+
+h1 {
+  font-size: 30px;
+  float: left;
+  color: #fff;
+  font-family: "Merriweather";
+}
+
+.tagline {
+  font-style: italic;
+  font-family: "Merriweather";
+  font-size: 25px;
+  text-align: center;
+}
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+a {
+  text-decoration: none;
+  color: #fff;
+  /* Set some default styles for anchors (color, text decoration) */
+}
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+
+
+/* Header
+   ================================================================ */
+
+
+
+/* Footer
+   ================================================================ */
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #3c3a3a;
+  text-align: left;
+  color: #d4e1bd;
+}
+
+/* Navigation
+   ================================================================ */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+
+/* Buttons
+   ================================================================ */
